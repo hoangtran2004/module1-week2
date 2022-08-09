@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Do you love me?</h1>
+<button onclick="clickk()" id=name>Yes</button>
+<button style="position: absolute" onmouseover="click2()" id="name2">No</button>
+<script>
+    function clickk() {
+        alert('metoo')
+    }
+    function click2() {
+        window.innerWidth;
+        window.innerHeight;
+        let x = Math.random()*700 +'px';
+        let y = Math.random()*700 + 'px';
+        document.getElementById('name2').style.left = x;
+        document.getElementById('name2').style.top = y;
+    }
+</script>
+</body>
+</html>

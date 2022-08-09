@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1efc92be-6ea2-4b99-b804-6a5b68f46bb9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/nobita.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/douluvme.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +46,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1660027025025</updated>
-      <workItem from="1660027026332" duration="3574000" />
+      <workItem from="1660027026332" duration="6723000" />
     </task>
     <servers />
   </component>
