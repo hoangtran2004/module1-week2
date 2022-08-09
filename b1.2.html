@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>S tròn</title>
+</head>
+<body>
+<h1>Tính diện tích hình tròn </h1>
+<input placeholder="nhập bán kính  " type="number" id="so">
+<button onclick="S()">Tính</button>
+<script>
+function S () {
+    let R = document.getElementById("so").value
+    let dientich =(Math.PI * Math.pow(R,2))
+    document.write(dientich)
+}
+</script>
+</body>
+</html>

@@ -5,6 +5,20 @@
     <title>Title</title>
 </head>
 <body>
-
+<!--bước một:tạo thẻ h1 nhập vào 2 ô input,tạo button để  hiển thị kết quả -->
+<input type="number" id="so1">
+<input type="number" id="so2">
+<button onclick="A()">Click</button>
+<h1 id="result"></h1>
+<!--bước 2 tạo biến,gán giá trị-->
+<script>
+function A () {
+  let a = document.getElementById('so1').value
+  let b = document.getElementById('so2').value
+  let s = (a*b)
+    //bước 3:hiển thị lên html
+  document.getElementById('result').innerHTML = "S =" +s;
+}
+</script>
 </body>
 </html>

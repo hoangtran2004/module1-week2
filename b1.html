@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+Nhập điểm Vật lý   : <input type="number" id="vatly"><br><br>
+Nhập điểm Hóa học  : <input type="number" id="hoahoc"><br><br>
+Nhập điểm Sinh học : <input type="number" id="sinhhoc"><br>
+<button onclick="TBM()">tính điểm</button>
+<script>
+ function TBM() {
+     let ly = +document.getElementById('vatly').value
+     let hoa = +document.getElementById('hoahoc').value
+     let sinh = +document.getElementById('sinhhoc').value
+     let tbm = ((ly+hoa+sinh)/3)
+
+     document.write(tbm)
+ }
+</script>
+</body>
+</html>
