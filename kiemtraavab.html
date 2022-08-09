@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1 id="ketqua"></h1>
+<input type="number" id="1">
+<input type="number" id="2">
+<button onclick="check()" id="3">kiem tra</button>
+<script>
+
+  function check() {
+      let a =document.getElementById('1').value
+      let b =document.getElementById('2').value
+      let c=(a%b)
+      if (a%b==0) document.getElementById('ketqua').innerHTML ='a chia hết cho b'
+      if (a%b>0) document.getElementById('ketqua').innerHTML ='a không hết cho b'
+  }
+</script>
+</body>
+</html>
