@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Tính tỉ số cân nặng</h1>
+Nhập cân nặng :(kg)<input type="number" id="cannang">
+<br>
+Nhập chiều cao: (m)<input type="number" id="chieucao">
+<br>
+<button onclick="BMI()" >Kiểm tra</button>
+<script>
+    function BMI(){
+        let weight = document.getElementById('cannang').value
+        let height = document.getElementById('chieucao').value
+        let bmi =(weight/(height*height))
+        if (bmi < 18)
+            document.write( bmi+"Underweight");
+        else if (bmi < 25.0)
+            document.write(bmi+ "Normal");
+        else if (bmi < 30.0)
+            document.write(bmi+ "Overweight");
+        else
+            document.write(bmi+"Obese");
+    }
+
+
+</script>
+</body>
+</html>
