@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="911aa662-1413-4b10-be46-0dd491177172" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/vonglapfor.html" beforeDir="false" afterPath="$PROJECT_DIR$/vonglapfor.html" afterDir="false" />
+    <list default="true" id="83596d79-fe45-4aa6-893b-d05b8dbead0e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/sudungwhile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sudungwhile2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +24,7 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2D9bjodTeG3becNeKTYANfHXZ9o" />
+  <component name="ProjectId" id="2D9lRwe5fOJ6YgP8loNMLKQd0ID" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -33,19 +35,18 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="911aa662-1413-4b10-be46-0dd491177172" name="Changes" comment="" />
-      <created>1660114384961</created>
+      <changelist id="83596d79-fe45-4aa6-893b-d05b8dbead0e" name="Changes" comment="" />
+      <created>1660119177065</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1660114384961</updated>
-      <workItem from="1660114386483" duration="677000" />
+      <updated>1660119177065</updated>
+      <workItem from="1660119178278" duration="299000" />
     </task>
     <servers />
   </component>
