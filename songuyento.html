@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let number = 2;
+    let dem = 0;
+    while (dem <= 20) {
+        let LaSNT = true;
+        for (let i = 2; i < number; i++) {
+            if (number % i == 0) {
+                LaSNT = false;
+                break;
+            }
+        }
+        if (LaSNT) {
+            document.write(number + " ")
+            dem++
+        }
+        number++;
+    }
+</script>
+</body>
+</html>
